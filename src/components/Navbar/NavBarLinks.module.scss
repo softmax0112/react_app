@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    height: 50px;
+    background-color: springgreen;
+
+    a {
+        font-size: 24px;
+        flex-grow: 1;
+        &.selectedLink {
+            color: red;
+        }
+    }
+
+    button {
+        flex-grow: 1;
+        align-self: flex-end;
+        height: 100%;
+    }
+}
